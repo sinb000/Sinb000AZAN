@@ -1,0 +1,11 @@
+INFO:     192.168.8.22:48136 - "GET /frontend/env HTTP/1.1" 404 Not Found
+INFO:     192.168.8.22:48136 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     192.168.8.22:43002 - "GET /frontend/env HTTP/1.1" 404 Not Found
+INFO:     192.168.8.22:39270 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.8.22:39270 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.8.22:57596 - "GET /api/ HTTP/1.1" 200 OK
+INFO:     192.168.8.35:64083 - "GET /api/ HTTP/1.1" 200 OK
+INFO:     192.168.8.35:55850 - "GET /api/radio-stream HTTP/1.1" 200 OK
+INFO:     192.168.8.22:57424 - "GET /api/radio-stream HTTP/1.1" 200 OK
+INFO:     192.168.8.22:56442 - "GET /api/radio-stream HTTP/1.1" 200 OK
+INFO:     192.168.8.22:51410 - "GET /api/radio-stream HTTP/1.1" 200 OK

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(py --version)",
+      "Read(//c/Users/yaser.alyousfi/AppData/Local/Programs/**)",
+      "Read(//c/Users/yaser.alyousfi/AppData/Local/Python//**)",
+      "Bash(ls /c/Python*)",
+      "Bash(\"/c/Users/yaser.alyousfi/AppData/Local/Microsoft/WindowsApps/python3.12\" --version)",
+      "Bash(npx expo *)",
+      "WebFetch(domain:expo.dev)",
+      "Bash(curl -s -X POST http://192.168.8.31:8000/api/alarms -H 'Content-Type: application/json' -d '{\"name\":\"test\",\"repeat\":{\"type\":\"none\"},\"default_time\":\"08:00\",\"enabled\":true}')",
+      "Bash(mongod --version)",
+      "Bash(node -e \"const fs = require\\('fs'\\); const d = fs.readFileSync\\('C:/Users/admin/Documents/VS Code Projects/AZAN/AZAN/frontend/node_modules/expo-audio/build/AudioModule.types.d.ts','utf8'\\); console.log\\(d.slice\\(d.indexOf\\('type AudioEvents'\\), d.indexOf\\('type AudioEvents'\\) + 600\\)\\)\")"
+    ]
+  }
+}

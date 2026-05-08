@@ -1,0 +1,23 @@
+
+# 1- open terminal, 2- new terminal, 3- + git bash. then paste below in two terminals.
+
+cd backend
+source venv/Scripts/activate
+uvicorn server:app --reload
+
+#####################
+cd frontend
+npx expo start          # scan QR with Expo Go app
+npx expo start --web    # open in browser
+
+
+
+# Build the APK (runs in the cloud, takes ~10–15 min)
+cd frontend
+eas build -p android --profile preview
+When the build finishes, EAS prints a download link. Download the .apk, transfer it to your phone, and install it.
+
+Before installing: on your Android phone go to Settings → Apps → Special app access → Install unknown apps and allow installs from your browser or file manager.
+
+test
+npx expo start

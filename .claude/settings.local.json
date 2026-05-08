@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(Test-Path \"d:\\\\yaser backup 05-05-2026\\\\Downloads\\\\Misc\\\\AZAN_UPDATED\\\\AZAN\\\\frontend\\\\.git\")",
+      "Bash(Get-ChildItem -Path \"d:\\\\yaser backup 05-05-2026\\\\Downloads\\\\Misc\\\\AZAN_UPDATED\\\\AZAN\\\\frontend\" -Directory)",
+      "Bash(Select-Object Name)",
+      "Bash(node -e \"console.log\\('FileSystem.documentDirectory on Android = file:///data/user/0/com.PACKAGE.app/files/'\\)\")"
+    ]
+  }
+}

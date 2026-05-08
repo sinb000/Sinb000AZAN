@@ -1,0 +1,4 @@
+env: load .env
+env: export EXPO_PUBLIC_BACKEND_URL
+Starting project at C:\Users\yaser.alyousfi\Downloads\Misc\AZAN_UPDATED\AZAN\frontend
+Starting Metro Bundler
